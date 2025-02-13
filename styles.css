@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('bg.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #e91e63;
+  font-size: 2.5rem;
+}
+
+.flower {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+#yes-btn {
+  background-color: #e91e63;
+  color: white;
+}
+
+#no-btn {
+  background-color: #ccc;
+  color: black;
+  position: relative;
+}
+
+/* Hidden letter */
+.letter {
+  display: none;
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.reading {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.letter h2 {
+  color: #e91e63;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.letter p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.letter .closing {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
