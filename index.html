@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This page is having a problem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            color: #333;
+            text-align: center;
+            padding: 100px;
+        }
+        .error-container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .error-icon {
+            font-size: 50px;
+        }
+        .error-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .error-details {
+            font-size: 16px;
+            color: #666;
+        }
+        .error-options {
+            text-align: left;
+            margin-top: 15px;
+        }
+        .error-options ul {
+            padding-left: 20px;
+        }
+        .refresh-btn {
+            background-color: #0078D7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .refresh-btn:hover {
+            background-color: #005a9e;
+        }
+        .error-code {
+            font-size: 12px;
+            color: #999;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="error-container">
+        <div class="error-icon">⚠️</div>
+        <div class="error-title">This page is having a problem</div>
+        <div class="error-details">Try coming back to it later.</div>
+        <div class="error-options">
+            <p><strong>You could also:</strong></p>
+            <ul>
+                <li>Open a new tab</li>
+                <li>Refresh this page</li>
+            </ul>
+        </div>
+        <button class="refresh-btn" onclick="redirectToValentine()">Refresh</button>
+        <div class="error-code">Error code: STATUS_INVALID_IMAGE_HASH</div>
+    </div>
+
+    <script>
+        function redirectToValentine() {
+            window.location.href = "valentine.html";
+        }
+    </script>
+
+</body>
+</html>
